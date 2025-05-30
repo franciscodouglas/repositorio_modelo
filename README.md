@@ -8,5 +8,15 @@
   -  Como instalar ou utilizar esse projeto
   -  Quem contribuiu (A Equipe)
   -  Como pode contribuir? (Comunidade externa que visualiza esse Repositório PUBLICO)
+
+  ## Organização de Pastas
+  - Toda Linguagem de Programação ou Framework exige uma organização em pastas. Em comúm todoas elas tem essa estrutura:
+
+    - /src -> A pasta indicada para colocar o código fonte do projto
+    - /test -> A pasta é indicada para colocar os testes unitários
+    - /public -> A pasta é indicada pra colocar o Front-End ou qualquer arquivo que precisa ficar à nível Público. A nível de API, teriamos os ENDPOINTs (Rotas de acesso)
+    - /config -> (ou scripts) arquivos de configuração ou instalação do bibliotecas do projeto (isso também pode ficar na raiz do projeto - config é uma pasta opcional)
+    - /docs -> A pasta é indicada para guardar imagens ou docs relacionados ao projeto. Por exemplo: Diagramas, Fluxogramas, Mapa Mentais, Canvas e etc.
+
  
 
