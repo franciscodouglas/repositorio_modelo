@@ -38,15 +38,20 @@
 
   ## Gerenciar Branchs
   - Um projeto pode ter algumas dessas branchs abaixo:
-  - main (ou master): Versão estável do Projeto (ou aquilo que o público está utilizando no momento)
+  - main (ou master): 
+    - Versão estável do Projeto (ou aquilo que o público está utilizando no momento)
+    - normalmente a main é atualizada no final de cada sprint, recebe tudo que foi realizada na homolog (foi testado e aprovado)
+    
   - homolog (ou tests): 
     - Versão posterior a de desenvolvimento, ou seja, é a de testes. Normalmente ela antecipa a main
     - no final ela é mesclada a main
+    - normalmente a homolog é atualizada no final de cada sprint, recebendo todas as modificações criadas na develop
 
   - develop: 
     - Versão em desenvolvimento, normalmente é utilizado por Desenvolvedores do Projeto. 
     - Centralizadora das modificações realizadas pelo os devs 
     - no final ela é mesclada a homolog
+    - normalmente a develop é considerada mais atualizada comparada a main e homolog
 
 - Branchs relacionadas ao card do kanban (branch-de-trabalho):
   - Por exemplo  [sufixo-atomic]/[nome-card]
@@ -54,6 +59,7 @@
   - cada dev pega um ou N cards do Kanban 
   - cada branch é baseada da develop
   - no final ela é mesclada a develop
+  
 
 - Flow das branchs:
   - branch-de-trabalho -> develop -> homolog -> main 
